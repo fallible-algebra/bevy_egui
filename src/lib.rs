@@ -197,8 +197,8 @@ use bevy_picking::{
     pointer::{PointerId, PointerLocation},
 };
 #[cfg(feature = "render")]
-use bevy_platform_support::collections::HashMap;
-use bevy_platform_support::collections::HashSet;
+use bevy_platform::collections::HashMap;
+use bevy_platform::collections::HashSet;
 use bevy_reflect::Reflect;
 #[cfg(feature = "picking")]
 use bevy_render::camera::NormalizedRenderTarget;
